@@ -34,36 +34,36 @@ export default {
           title: 'Vue 主页',
           path: '/vue',
         },
-        {
-          key: 'VueMicroAppList',
-          title: 'Vue 列表页',
-          path: '/vue/list',
-        },
-        {
-          key: 'ReactMicroApp',
-          title: 'React 主页',
-          path: '/react',
-        },
-        {
-          key: 'ReactMicroAppList',
-          title: 'React 列表页',
-          path: '/react/list',
-        },
-        {
-          key: 'AngularMicroApp',
-          title: 'Angular 主页',
-          path: '/angular',
-        },
-        {
-          key: 'AngularMicroAppList',
-          title: 'Angular 列表页',
-          path: '/angular/list',
-        },
-        {
-          key: 'StaticMicroApp',
-          title: 'Static 微应用',
-          path: '/static',
-        },
+        // {
+        //   key: 'VueMicroAppList',
+        //   title: 'Vue 列表页',
+        //   path: '/vue/list',
+        // },
+        // {
+        //   key: 'ReactMicroApp',
+        //   title: 'React 主页',
+        //   path: '/react',
+        // },
+        // {
+        //   key: 'ReactMicroAppList',
+        //   title: 'React 列表页',
+        //   path: '/react/list',
+        // },
+        // {
+        //   key: 'AngularMicroApp',
+        //   title: 'Angular 主页',
+        //   path: '/angular',
+        // },
+        // {
+        //   key: 'AngularMicroAppList',
+        //   title: 'Angular 列表页',
+        //   path: '/angular/list',
+        // },
+        // {
+        //   key: 'StaticMicroApp',
+        //   title: 'Static 微应用',
+        //   path: '/static',
+        // },
       ],
     };
   },
