@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import './public-path';
 import routes from './routes';
 
@@ -14,7 +14,7 @@ let router = null;
 function render() {
   // 在 render 中创建 VueRouter，可以保证在卸载微应用时，移除 location 事件监听，防止事件污染
   router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/vue' : '/'),
     routes,
   });
   // 挂载应用

@@ -30,7 +30,7 @@ export default {
           path: '/',
         },
         {
-          key: 'VueMicroApp',
+          key: 'micro-app-vue',
           title: 'Vue 主页',
           path: '/vue',
         },

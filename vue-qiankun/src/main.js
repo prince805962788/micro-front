@@ -5,12 +5,11 @@ import App from './App.vue';
 
 import routes from './routes';
 import startQiankun from './micro';
-startQiankun();
 
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes,
 });
 const app = createApp(App);
@@ -18,4 +17,6 @@ app.config.productionTip = false;
 app
   .use(Antd)
   .use(router)
-  .mount('#app');
+  .mount('#main-app');
+
+startQiankun();

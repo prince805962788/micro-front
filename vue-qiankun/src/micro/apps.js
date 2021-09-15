@@ -12,7 +12,7 @@ const apps = [
   //   activeRule: '/react',
   // },
   {
-    name: 'VueMicroApp',
+    name: 'micro-app-vue',
     entry: '//localhost:10200',
     container: '#frame',
     activeRule: '/vue',
