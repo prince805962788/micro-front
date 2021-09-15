@@ -49,7 +49,7 @@ export async function mount(props) {
  */
 export async function unmount() {
   console.log('VueMicroApp unmount');
-  instance.$destroy();
+  instance.unmount();
   instance = null;
   router = null;
 }
